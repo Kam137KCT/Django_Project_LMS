@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-=st=&vm9ay+0d6skkxrj7!+@f&sh!e_jgb44kyk6thag1ui2_x
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'django-project-lms-lwro.onrender.com',
+    'django-project-lms-3kr7.onrender.com'',
 ]
 
 # LogIn & LogOut Direct To Profile Pages
