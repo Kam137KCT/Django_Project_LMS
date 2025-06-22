@@ -1,0 +1,13 @@
+ 1: {% extends 'base.html' %}
+ 2: 
+ 3: {% block title %}{{ teacher.full_name }} - Teacher Details{% endblock %}
+ 4: 
+ 5: {% block content %}
+ 6: <!-- Breadcrumb Navigation -->
+ 7: <nav aria-label="breadcrumb" class="container mt-4 mb-4">
+ 8:     <ol class="breadcrumb">
+ 9:         <li class="breadcrumb-item"><a href="{% url 'home' %}"><i class="fa-solid fa-home me-1"></i>Home</a></li>
+10:         <li class="breadcrumb-item"><a href="{% url 'teacher.index' %}"><i class="fa-solid fa-chalkboard-teacher me-1"></i>Teachers</a></li>
+11:         <li class="breadcrumb-item active" aria-current="page">{{ teacher.full_name }}</li>
+12:     </ol>
+13: </nav>
